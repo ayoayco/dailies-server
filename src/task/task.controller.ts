@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { Params } from "express-serve-static-core";
 
-import Task from '../models/task';
+import Task from './task.model';
 
 export type IParams = Params & {
     id: string;
