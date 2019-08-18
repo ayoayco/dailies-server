@@ -1,12 +1,12 @@
-import mongoose from "mongoose";
+import { Document, Schema } from "mongoose";
 import Database from "../database";
 
-export interface ITask extends mongoose.Document {
+export interface ITask extends Document {
   title: string;
   author: number;
 }
 
-export const TaskSchema = new mongoose.Schema({
+export const TaskSchema = new Schema({
   title: { type: String, required: true },
   author: { type: String, required: true }
 });
