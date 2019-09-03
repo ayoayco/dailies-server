@@ -10,6 +10,6 @@ After cloning, run `npm i`
 
 To run the server, run `npm run server`
 
-To add a schema, check the pattern of the codes under the directory `scr/task` 
+To add a schema, check the pattern of the files under the directory `scr/task` 
 
 To add API endpoints update router.ts under the directory`src/`
